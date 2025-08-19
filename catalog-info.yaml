@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "thuy"
+  annotations:
+    backstage.io/managed-by: scaffolder
+    github.com/project-slug: sotatek-cloudteam/backsatge-1
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: database
+  owner: sotatek-dev-team
+  lifecycle: experimental
